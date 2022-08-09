@@ -79,10 +79,17 @@
 
 <script>
 // import At from 'vue-at'
-// import At from '../dist/vue-at.common'
-// import AtTa from '../dist/vue-at-textarea.common'
 import At from './At.vue'
 import AtTa from './AtTextarea.vue'
+
+// testing dist
+// import '../dist/style.css'
+//  -- mjs
+// import At from '../dist/vue-at.mjs'
+// import AtTa from '../dist/vue-at-textarea.mjs'
+//  -- common js
+// import At from '../dist/vue-at'
+// import AtTa from '../dist/vue-at-textarea'
 
 let members = [
   /* eslint-disable */
